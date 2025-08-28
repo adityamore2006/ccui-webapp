@@ -1,19 +1,32 @@
 const Students = () => {
     return (
         <div className="space-y-6">
-            <h2 className="text-2xl font-semibold text-slate-900">Student Team</h2>
+            <h2 className="text-2xl font-semibold text-slate-900 text-center">Meet Our Student Team</h2>
             <div className="prose max-w-none">
-                <p className="text-slate-600">
-                    Meet our dedicated student team members who are passionate about financial literacy and credit union initiatives.
-                </p>
                 {/* Add student profiles here */}
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-                    <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
-                        <h3 className="font-semibold text-lg">Student Name</h3>
-                        <p className="text-slate-600 text-sm">Position</p>
-                        <p className="text-slate-500 text-sm mt-2">Brief description...</p>
-                    </div>
-                    {/* More student cards... */}
+
+                <div className="text-center bg-white p-6 rounded-lg shadow-sm border border-slate-200 my-4">
+                    <h3 className="font-semibold text-lg">Steering Committee</h3>
+                    <p className="text-slate-600 text-sm">Leading the Charge</p>
+                    <p className="text-slate-500 text-sm mt-2"></p>
+                </div>
+
+                <div className="text-center bg-white p-6 rounded-lg shadow-sm border border-slate-200 my-4">
+                    <h3 className="font-semibold text-lg">Outreach Committee</h3>
+                    <p className="text-slate-600 text-sm">Leading the Charge</p>
+                    <p className="text-slate-500 text-sm mt-2"></p>
+                </div>
+
+                <div className="text-center bg-white p-6 rounded-lg shadow-sm border border-slate-200 my-4">
+                    <h3 className="font-semibold text-lg">Fundraising Committee</h3>
+                    <p className="text-slate-600 text-sm">Leading the Charge</p>
+                    <p className="text-slate-500 text-sm mt-2"></p>
+                </div>
+
+                <div className="text-center bg-white p-6 rounded-lg shadow-sm border border-slate-200 my-4">
+                    <h3 className="font-semibold text-lg">Research Committee</h3>
+                    <p className="text-slate-600 text-sm">Leading the Charge</p>
+                    <p className="text-slate-500 text-sm mt-2"></p>
                 </div>
             </div>
         </div>

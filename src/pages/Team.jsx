@@ -8,7 +8,7 @@ const Team = () => {
         <div className="space-y-6">
             <div className="flex gap-4 border-b border-slate-200 pb-4">
                 <Link 
-                    to="/team/students"
+                    to="students"
                     className={`px-4 py-2 rounded font-medium transition-colors ${
                         location.pathname === '/team/students' || location.pathname === '/team'
                             ? 'bg-indigo-600 text-white'
@@ -18,7 +18,7 @@ const Team = () => {
                     Student Team
                 </Link>
                 <Link 
-                    to="/team/advisors"
+                    to="advisors"
                     className={`px-4 py-2 rounded font-medium transition-colors ${
                         location.pathname === '/team/advisors'
                             ? 'bg-indigo-600 text-white'
